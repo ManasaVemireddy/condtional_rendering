@@ -1,0 +1,52 @@
+/* Write your CSS here */
+/* Resetting margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting up the container */
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a2a38; /* Dark background */
+}
+
+/* Heading styles */
+.heading {
+  font-size: 48px;
+  color: #f7c10c; /* Yellow text for heading */
+  font-family: 'Outfit', sans-serif;
+  margin-bottom: 16px;
+}
+
+/* Description text */
+.description {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Outfit', sans-serif;
+  margin-bottom: 24px;
+}
+
+/* Button styling */
+.button {
+  background-color: #ffffff;
+  color: #1a2a38;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.button:hover {
+  background-color: #f7c10c; /* Matching heading color */
+  color: #1a2a38;
+}
